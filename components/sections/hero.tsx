@@ -23,14 +23,14 @@ const Hero = () => {
 						Get Started for FREE on Canva
 						<ArrowRightIcon />
 					</Link>
-					<div className="my-8 h-96 w-full overflow-hidden rounded-lg md:rounded-xl">
+					<div className="w-full overflow-hidden rounded-lg md:rounded-xl">
 						<Image
 							rel="preload"
 							className="h-full w-full object-cover object-bottom"
 							src={Placeholder}
 							priority={true}
-							width={1080}
-							height={384}
+							width={1024}
+							height={1024}
 							alt="hero image"
 							placeholder="blur"
 						/>
