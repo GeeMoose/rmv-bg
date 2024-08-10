@@ -20,7 +20,7 @@ export function NavMenu() {
     <NavigationMenu className="hidden sm:block">
       <NavigationMenuList>
         <NavigationMenuItem>
-          <NavigationMenuTrigger>
+          {/* <NavigationMenuTrigger>
             {fjord.directory_menu.title}
           </NavigationMenuTrigger>
           <NavigationMenuContent>
@@ -50,10 +50,10 @@ export function NavMenu() {
                 </ListItem>
               ))}
             </ul>
-          </NavigationMenuContent>
+          </NavigationMenuContent> */}
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <NavigationMenuTrigger>{fjord.nav_menu.title}</NavigationMenuTrigger>
+          {/* <NavigationMenuTrigger>{fjord.nav_menu.title}</NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="grid w-[400px] gap-3 p-4 ">
               {fjord.nav_menu.items.map((component) => (
@@ -66,14 +66,14 @@ export function NavMenu() {
                 </ListItem>
               ))}
             </ul>
-          </NavigationMenuContent>
+          </NavigationMenuContent> */}
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <Link href="/posts" legacyBehavior passHref>
+          {/* <Link href="/posts" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               Blog
             </NavigationMenuLink>
-          </Link>
+          </Link> */}
         </NavigationMenuItem>
       </NavigationMenuList>
     </NavigationMenu>

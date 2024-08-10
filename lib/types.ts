@@ -117,15 +117,17 @@ type FjordProps = {
   menu: {
     main: {
       home: string;
-      blog: string;
+      // blog: string;
       about?: string;
       contact?: string;
     };
     content: {
-      authors: string;
-      categories?: string;
-      tags?: string;
-      pages: string;
+      terms: string;
+      privacy: string;
+      // authors: string;
+      // categories?: string;
+      // tags?: string;
+      // pages: string;
     };
     legal: {
       privacy_policy?: string;

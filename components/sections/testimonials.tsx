@@ -1,6 +1,6 @@
 // Layout
 import * as Craft from "@/components/craft/layout";
-import Logo from "@/public/logo.svg";
+import Logo from "@/public/rmvbg.svg";
 import fjord from "@/fjord.config";
 
 type TestimonialsText = {

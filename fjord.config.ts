@@ -11,7 +11,7 @@ const fjord: FjordProps = {
   wordpress_url: "https://windpress.wpenginepowered.com",
   google_analytics_id: "G-7VM8KZENP7",
 
-  logo: "../logo.svg",
+  logo: "../rmvbg.svg",
 
   // change the font using `next/font` in `layout.tsx` in the app directory.
   // check out the docs here: https://nextjs.org/docs/app/building-your-application/optimizing/fonts#google-fonts
@@ -19,15 +19,17 @@ const fjord: FjordProps = {
   menu: {
     main: {
       home: "/", // Don't Change
-      blog: "/posts", // default is `/posts`
+      // blog: "/posts", // default is `/posts`
       about: "/about", // you can remove this if you don't want an about page
       contact: "/contact", // you can remove this if you don't want a contact page
     },
     content: {
-      authors: "/posts/authors", // default is `/posts/authors`
-      categories: "/posts/categories", // default is `/posts/categories`
-      tags: "/posts/tags", // default is `/posts/tags`
-      pages: "/all", // default is `/all`
+      terms: "/terms",
+      privacy: "/privacy",
+      // authors: "/posts/authors", // default is `/posts/authors`
+      // categories: "/posts/categories", // default is `/posts/categories`
+      // tags: "/posts/tags", // default is `/posts/tags`
+      // pages: "/all", // default is `/all`
     },
     legal: {
       privacy_policy: "/privacy-policy", // default is `/privacy-policy`

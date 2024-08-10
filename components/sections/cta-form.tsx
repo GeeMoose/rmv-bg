@@ -49,7 +49,7 @@ export function CTAForm() {
 						<FormItem>
 							<FormLabel>Email</FormLabel>
 							<FormControl>
-								<Input className="md:w-96" placeholder="example@fjord.dev" {...field} />
+								<Input className="md:w-96" placeholder="example@gmail.com" {...field} />
 							</FormControl>
 							<FormDescription>No spam, ever!</FormDescription>
 							<FormMessage />

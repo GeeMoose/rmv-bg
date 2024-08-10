@@ -11,12 +11,12 @@ import Image from "next/image";
 import Link from "next/link";
 
 // Utility Imports
-import Logo from "@/public/logo.svg";
+import Logo from "@/public/rmvbg.svg";
 import Balancer from "react-wrap-balancer";
 import { Github, Twitter } from "lucide-react";
 
-const github_link = "https://github.com/9d8dev/fjord";
-const x_link = "https://x.com/bridgertower";
+const github_link = "https://github.com/GeeMoose/rmv-bg";
+const x_link = "https://x.com/hey2SK";
 
 const Footer = () => {
   return (
@@ -30,10 +30,7 @@ const Footer = () => {
             </Link>
             <p>
               <Balancer>
-                Craft UI is a design system and component library for building
-                NextJS Websites. Created by{" "}
-                <a href="https://bridger.to">Bridger Tower</a> and{" "}
-                <a href="https://cameronyoungblood.com">Cameron Youngblood</a>.
+                Feel free to contact us
               </Balancer>
             </p>
 
@@ -53,13 +50,13 @@ const Footer = () => {
               </Button>
             </div>
             <p className="text-muted-foreground hidden sm:block">
-              Code © <a href="https://9d8.dev">9d8</a>. 2023-present.
+              Copyright © 2024 RMV-BG. All Rights Reserved.
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-6 sm:gap-0">
             <div className="flex flex-col gap-2">
-              <h4 className="text-muted-foreground">{fjord.site_name}</h4>
+              <h4 className="text-muted-foreground">SUPPORT</h4>
               <ul>
                 {Object.entries(fjord.menu.main).map(([key, href]) => (
                   <li key={key}>
@@ -71,7 +68,7 @@ const Footer = () => {
               </ul>
             </div>
             <div className="flex flex-col gap-2">
-              <h4 className="text-muted-foreground">Blog</h4>
+              <h4 className="text-muted-foreground">LEGAL</h4>
               <ul>
                 {Object.entries(fjord.menu.content).map(([key, href]) => (
                   <li key={key}>

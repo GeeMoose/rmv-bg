@@ -5,10 +5,9 @@ const CTA = () => {
   return (
     <Craft.Section className="border-t">
       <Craft.Container>
-        <h3 className="!mt-0">Try Fjord out for yourself!</h3>
+        <h3 className="!mt-0">Try rmv-bg out for yourself!</h3>
         <p>
-          Reach out to learn more about Fjord from the developers. See how Fjord
-          can be the perfect starter for your next website.
+          Reach out to learn more about rmv-bg. If you encounter any issues, please contact us immediately.
         </p>
         <CTAForm />
       </Craft.Container>
